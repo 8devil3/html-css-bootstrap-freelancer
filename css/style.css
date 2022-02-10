@@ -37,11 +37,10 @@ nav {
 
 #hero div {
     max-width: 400px;
-    margin: 0 auto;
 }
 
 .img {
-    height: 20rem;
+    height: 16rem;
 }
 
 
@@ -51,3 +50,16 @@ nav {
     height: 16rem;
 }
 
+
+
+
+
+#about {
+    background-color: var(--green);
+    color: var(--white);
+}
+
+.dlbutton {
+    width: 150px;
+    color: var(--white);
+}
