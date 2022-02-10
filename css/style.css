@@ -26,3 +26,17 @@ nav {
 .red {
     background-color: var(--red);
 }
+
+#hero {
+    background-color: var(--green);
+    color: var(--white);
+}
+
+#hero div {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.img {
+    height: 20rem;
+}
