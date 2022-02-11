@@ -27,19 +27,27 @@ header #navbarNav {
 
 
 
-/* hero */
-#hero {
+/* jumbotron */
+#jumbotron {
     background-color: var(--green);
-    color: var(--white);
 }
 
-#hero div {
+#jumbotron div {
     max-width: 400px;
 }
 
-.img {
-    height: 16rem;
+#jumbotron img {
+    width: 10rem;
+    display: block;
 }
+
+#jumbotron hr {
+    width: 100px;
+    height: 4px;
+    border-radius: 4px;
+    background-color: var(--white);
+}
+
 
 
 
