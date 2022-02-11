@@ -15,7 +15,6 @@ body {
 ._line-dark {
     max-width: 100px;
     height: 3px;
-    border-radius: 3px;
     background-color: var(--darkBlue);
 }
 
@@ -26,7 +25,6 @@ body {
 ._line-light {
     max-width: 100px;
     height: 3px;
-    border-radius: 3px;
     background-color: var(--white);
 }
 
@@ -44,15 +42,15 @@ body {
     border-color: var(--darkGreen);
 }
 
-.btn-outline-primary {
-    border-color: var(--white);
+.link-primary {
+    color: var(--green);
+    text-decoration: none;
+    transition: color 0.2s;
 }
 
-.btn-outline-primary:hover {
-    background-color: var(--darkGreen);
-    border-color: var(--darkGreen);
+.link-primary:hover {
+    color: var(--darkGreen);
 }
-
 
 
 
@@ -102,25 +100,27 @@ header #navbarNav {
     color: var(--white);
 }
 
-#about a {
-    color: var(--white);
-    border-color: var(--white);
-}
-
 
 
 
 /* contact */
-#contact form * {
+#contact .form-control {
     border-top: 0;
     border-left: 0;
     border-right: 0;
 }
 
-#contact form *::placeholder {
+#contact .form-control,
+#contact .form-control::placeholder {
     color: var(--darkBlue);
 }
 
+#contact .form-control:active,
+#contact .form-control:focus {
+    border-bottom-color: var(--blue);
+    outline: none;
+    box-shadow: none;
+}
 
 
 
@@ -132,4 +132,5 @@ footer {
 
 footer .colophon {
     background-color: var(--darkBlue);
+    font-size: 0.8rem;
 }
