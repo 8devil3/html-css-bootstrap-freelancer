@@ -1,29 +1,14 @@
 :root {
-    font-size: 16px;
-    font-family: Arial, Helvetica, sans-serif;
-
     --darkBlue: #2C3E50;
     --blue: #3A546D;
     --green: #1ABC9C;
     --white: #fff;
-    --red: #d13d3d;
-}
-
-.red {
-    background-color: var(--red);
 }
 
 
-
-
-/* tipografia */
-a, a:hover {
-    color: var(--white);
-    text-decoration: none;
-}
-
-h1, h2, h3, h4, h5, h6 {
-    text-transform: uppercase;
+body {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 
@@ -32,11 +17,11 @@ h1, h2, h3, h4, h5, h6 {
 /* header */
 header {
     background-color: var(--darkBlue);
-    color: var(--white);
 }
 
-nav {
-    min-height: 5rem;
+header #navbarNav {
+    flex-grow: 0;
+    font-size: 0.8rem;
 }
 
 
