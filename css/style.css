@@ -13,8 +13,8 @@ body {
 
 ._line {
     max-width: 100px;
-    height: 4px;
-    border-radius: 4px;
+    height: 3px;
+    border-radius: 3px;
 }
 
 
@@ -56,10 +56,6 @@ header #navbarNav {
 
 
 /* portfolio */
-#portfolio div.red {
-    height: 16rem;
-}
-
 #portfolio ._line {
     background-color: var(--darkBlue);
 }
@@ -76,9 +72,13 @@ header #navbarNav {
     color: var(--white);
 }
 
-.dlbutton {
-    width: 150px;
+#about a {
     color: var(--white);
+    border-color: var(--white);
+}
+
+#about ._line {
+    background-color: var(--white);
 }
 
 
