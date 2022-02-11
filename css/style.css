@@ -30,6 +30,7 @@ header #navbarNav {
 /* jumbotron */
 #jumbotron {
     background-color: var(--green);
+    color: var(--white);
 }
 
 #jumbotron div {
