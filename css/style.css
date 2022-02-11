@@ -167,3 +167,30 @@ footer .colophon {
     background-color: var(--darkBlue);
     font-size: 0.8rem;
 }
+
+._social-wrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+footer a._social-icon {
+    width: 3rem;
+    height: 3rem;
+    font-size: 1rem;
+    color: var(--white);
+    text-decoration: none;
+    padding: 0.12rem;
+    margin: 0 0.3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px var(--white) solid;
+    transition: color 0.2s, border 0.2s;
+}
+
+footer a._social-icon:hover {
+    border: 1px var(--green) solid;
+    color: var(--green);
+    text-decoration: none;
+}
