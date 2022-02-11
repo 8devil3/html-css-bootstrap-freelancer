@@ -84,10 +84,6 @@ header #navbarNav {
     color: var(--white);
 }
 
-#jumbotron > div {
-    max-width: 400px;
-}
-
 #jumbotron img {
     width: 10rem;
     display: block;
