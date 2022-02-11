@@ -2,6 +2,7 @@
     --darkBlue: #2C3E50;
     --blue: #3A546D;
     --green: #1ABC9C;
+    --darkGreen: #15a084;
     --white: #fff;
 }
 
@@ -11,11 +12,47 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-._line {
+._line-dark {
     max-width: 100px;
     height: 3px;
     border-radius: 3px;
+    background-color: var(--darkBlue);
 }
+
+._decoration-dark {
+    color: var(--darkBlue);
+}
+
+._line-light {
+    max-width: 100px;
+    height: 3px;
+    border-radius: 3px;
+    background-color: var(--white);
+}
+
+._decoration-light {
+    color: var(--white);
+}
+
+.btn-primary {
+    background-color: var(--green);
+    border-color: var(--green);
+}
+
+.btn-primary:hover {
+    background-color: var(--darkGreen);
+    border-color: var(--darkGreen);
+}
+
+.btn-outline-primary {
+    border-color: var(--white);
+}
+
+.btn-outline-primary:hover {
+    background-color: var(--darkGreen);
+    border-color: var(--darkGreen);
+}
+
 
 
 
@@ -47,22 +84,15 @@ header #navbarNav {
     display: block;
 }
 
-#jumbotron ._line {
-    background-color: var(--white);
-}
-
 
 
 
 
 /* portfolio */
-#portfolio ._line {
-    background-color: var(--darkBlue);
-}
-
 #portfolio ._decoration {
     color: var(--darkBlue);
 }
+
 
 
 
@@ -77,21 +107,20 @@ header #navbarNav {
     border-color: var(--white);
 }
 
-#about ._line {
-    background-color: var(--white);
-}
 
 
 
 /* contact */
-
-#contact ._line {
-    background-color: var(--darkBlue);
+#contact form * {
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
 }
 
-#contact ._decoration {
+#contact form *::placeholder {
     color: var(--darkBlue);
 }
+
 
 
 
