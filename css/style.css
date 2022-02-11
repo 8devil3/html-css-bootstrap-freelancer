@@ -3,7 +3,9 @@
     --blue: #3A546D;
     --green: #1ABC9C;
     --darkGreen: #15a084;
+    --greenAlpha: #1ABC9C80;
     --white: #fff;
+
 }
 
 
@@ -54,6 +56,7 @@ body {
 
 
 
+
 /* header */
 header {
     background-color: var(--darkBlue);
@@ -85,10 +88,39 @@ header #navbarNav {
 
 
 
-
 /* portfolio */
 #portfolio ._decoration {
     color: var(--darkBlue);
+}
+
+#portfolio ._img-box {
+    overflow: hidden;
+    position: relative;
+}
+
+#portfolio ._img-hov {
+    color: var(--white);
+    font-size: 5rem;
+    opacity: 0;
+    transition: opacity 0.3s;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#portfolio ._img-hov > [class*="fa"] {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#portfolio ._img-hov:hover {
+    opacity: 1;
+    background-color: var(--greenAlpha);
+    cursor: pointer;
 }
 
 
@@ -121,6 +153,7 @@ header #navbarNav {
     outline: none;
     box-shadow: none;
 }
+
 
 
 
