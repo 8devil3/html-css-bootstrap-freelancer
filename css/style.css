@@ -89,6 +89,10 @@ header #navbarNav {
     display: block;
 }
 
+#jumbotron > div {
+    max-width: 25rem;
+}
+
 
 
 
@@ -198,4 +202,11 @@ footer a._social-icon:hover {
     border: 1px var(--green) solid;
     color: var(--green);
     text-decoration: none;
+}
+
+footer ._toTop {
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+    box-shadow: 1px 1px 10px #00000080;
 }
