@@ -83,6 +83,17 @@ header #navbarNav {
 
 
 
+/* contact */
+
+#contact ._line {
+    background-color: var(--darkBlue);
+}
+
+#contact ._decoration {
+    color: var(--darkBlue);
+}
+
+
 
 /* footer */
 footer {
